@@ -33,11 +33,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
           git add feed-cn.json state-feed-cn.json
           if git diff --staged --quiet; then
             echo "No feed changes."
           else
             git commit -m "feed: update CN — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Rebase onto whatever the US workflow may have pushed in the
+            # meantime (manual workflow_dispatch or staggered cron skew).
+            # Disjoint files (feed-us vs feed-cn) → no conflicts expected.
+            git pull --rebase origin main
             git push
           fi
