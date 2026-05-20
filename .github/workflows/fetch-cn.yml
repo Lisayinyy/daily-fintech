@@ -1,0 +1,43 @@
+name: Fetch CN fintech feed
+
+on:
+  schedule:
+    # Staggered 15 min after US so the two workflows don't race
+    # to push to main. 10:45 UTC = 18:45 Beijing.
+    # NBS releases monthly data ~15th–18th; the cron will mostly find no
+    # new items but the dedup state file makes that cheap.
+    - cron: '45 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Fetch CN sources and verify citations
+        run: npm run fetch:cn
+
+      - name: Commit feed-cn.json + state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add feed-cn.json state-feed-cn.json
+          if git diff --staged --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "feed: update CN — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

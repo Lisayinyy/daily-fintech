@@ -1,0 +1,81 @@
+{
+  "region": "US",
+  "_notes": "Each source carries a `tier` (1 = primary regulatory/corporate, 2 = investment bank/VC publication). verify-citation.js will reject items lacking these fields. URLs smoke-tested 2026-05-20.",
+
+  "sec_edgar": {
+    "tier": 1,
+    "_doc": "https://www.sec.gov/edgar/searchedgar/companysearch",
+    "user_agent_required": "Daily Fintech Brief contact@example.com",
+    "filing_types": ["8-K", "10-Q", "10-K", "S-1"],
+    "companies": [
+      { "ticker": "NVDA",  "cik": "0001045810", "name": "NVIDIA Corporation" },
+      { "ticker": "MSFT",  "cik": "0000789019", "name": "Microsoft Corporation" },
+      { "ticker": "GOOGL", "cik": "0001652044", "name": "Alphabet Inc." },
+      { "ticker": "META",  "cik": "0001326801", "name": "Meta Platforms" },
+      { "ticker": "AMZN",  "cik": "0001018724", "name": "Amazon.com" },
+      { "ticker": "AAPL",  "cik": "0000320193", "name": "Apple Inc." },
+      { "ticker": "TSLA",  "cik": "0001318605", "name": "Tesla Inc." },
+      { "ticker": "PLTR",  "cik": "0001321655", "name": "Palantir Technologies" },
+      { "ticker": "COIN",  "cik": "0001679788", "name": "Coinbase Global" },
+      { "ticker": "SOFI",  "cik": "0001818874", "name": "SoFi Technologies" },
+      { "ticker": "HOOD",  "cik": "0001783879", "name": "Robinhood Markets" },
+      { "ticker": "AMD",   "cik": "0000002488", "name": "Advanced Micro Devices" }
+    ]
+  },
+
+  "regulators": {
+    "tier": 1,
+    "_notes": "Treasury, OCC, and FDIC discontinued public RSS feeds in 2024-2026 (their old endpoints now serve HTML homepages). For now we rely on Fed + SEC Press, which is still meaningful coverage: Fed for monetary policy, SEC for securities + enforcement.",
+    "feeds": [
+      {
+        "name": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "homepage": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+      },
+      {
+        "name": "SEC Press",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "homepage": "https://www.sec.gov/news/pressreleases"
+      }
+    ]
+  },
+
+  "vc_blogs": {
+    "tier": 2,
+    "_notes": "a16z and Bessemer WordPress RSS feeds went 404 in 2025-2026; a16z's content now flows through their podcast (see investment_bank_podcasts). Bessemer Atlas RSS has no current replacement. VC blogs publish infrequently — the lookback window in `limits` is generous on purpose.",
+    "feeds": [
+      { "name": "Sequoia Capital", "url": "https://sequoiacap.com/feed/" },
+      { "name": "Lightspeed",      "url": "https://lsvp.com/feed/" },
+      { "name": "Founders Fund",   "url": "https://foundersfund.com/feed/" }
+    ]
+  },
+
+  "investment_bank_podcasts": {
+    "tier": 2,
+    "_notes": "Public RSS feeds for investment bank + top-tier VC thought leadership. Transcription via pod2txt (same service as follow-builders). Set POD2TXT_API_KEY env to enable; otherwise this fetcher returns [].",
+    "feeds": [
+      {
+        "name": "Goldman Sachs Exchanges",
+        "url": "https://feeds.megaphone.fm/GLD9218176758",
+        "lookback_hours": 168
+      },
+      {
+        "name": "Morgan Stanley Thoughts on the Market",
+        "url": "https://rss.art19.com/thoughts-on-the-market",
+        "lookback_hours": 96
+      },
+      {
+        "name": "a16z Podcast",
+        "url": "https://feeds.simplecast.com/JGE3yC0V",
+        "lookback_hours": 168
+      }
+    ]
+  },
+
+  "limits": {
+    "sec_filings_per_company": 5,
+    "regulator_lookback_hours": 48,
+    "vc_lookback_hours": 504,
+    "podcast_lookback_hours": 168
+  }
+}

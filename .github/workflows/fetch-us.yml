@@ -1,0 +1,42 @@
+name: Fetch US fintech feed
+
+on:
+  schedule:
+    # 10:30 UTC = 06:30 ET, ~1 hour before US market open.
+    # Off-the-hour to avoid the GitHub Actions thundering herd.
+    - cron: '30 10 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Fetch all US sources and verify citations
+        env:
+          POD2TXT_API_KEY: ${{ secrets.POD2TXT_API_KEY }}
+        run: npm run fetch
+
+      - name: Commit feed-us.json + state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed-us.json state-feed.json
+          if git diff --staged --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "feed: update US — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

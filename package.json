@@ -1,0 +1,27 @@
+{
+  "name": "daily-fintech",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Daily AI Fintech investment brief from Tier 1+2 primary sources only — SEC, central banks, investment bank publications, top-tier VC blogs. Zero rumor mill.",
+  "main": "scripts/generate-feed.js",
+  "scripts": {
+    "fetch": "node scripts/generate-feed.js",
+    "fetch:cn": "node scripts/generate-feed-cn.js",
+    "fetch:all": "node scripts/generate-feed.js && node scripts/generate-feed-cn.js",
+    "fetch:sec": "node scripts/fetch-sec.js",
+    "fetch:fed": "node scripts/fetch-fed.js",
+    "fetch:vc": "node scripts/fetch-vc.js",
+    "fetch:podcasts": "node scripts/fetch-podcasts.js",
+    "fetch:cn:nbs": "node scripts/fetch-cn.js",
+    "verify": "node scripts/verify-citation.js",
+    "digest": "node scripts/prepare-digest.js",
+    "deliver": "node scripts/deliver.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "license": "MIT"
+}

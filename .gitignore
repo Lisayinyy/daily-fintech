@@ -1,0 +1,19 @@
+node_modules/
+.omc/
+
+# Local digest artifact — produced by `npm run digest --out=...`
+_digest.json
+
+# Local user config — secrets / language preference live here
+.daily-fintech/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

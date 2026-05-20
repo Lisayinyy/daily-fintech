@@ -1,0 +1,42 @@
+{
+  "region": "CN",
+  "_notes": "P4 China sources. Smoke-tested 2026-05-20 — the China public-RSS landscape in 2025-2026 is heavily degraded (most regulator sites went SPA + WAF and dropped RSS). Only NBS still publishes valid Atom/RSS. CSRC, PBoC, HKEX, SSE, SZSE, NFRA, SAFE all dropped RSS or are JS-rendered + bot-blocked; documenting them here so the next person doesn't waste time re-discovering. If/when those endpoints come back, add them to the `feeds` array of the relevant section.",
+
+  "regulators": {
+    "tier": 1,
+    "_notes": "NBS (国家统计局) is the only PRC regulator with a verified working RSS endpoint as of 2026-05-20. Both feeds return real text/xml. We treat NBS as Tier 1 because it publishes the originating macro-data series (CPI, PPI, GDP, IIP) — which is exactly what AI Fintech investors want before any commentary.",
+    "feeds": [
+      {
+        "name": "NBS 数据发布",
+        "url": "https://www.stats.gov.cn/sj/zxfb/rss.xml",
+        "homepage": "https://www.stats.gov.cn/sj/zxfb/",
+        "topic_hint": "macro-data"
+      },
+      {
+        "name": "NBS 数据解读",
+        "url": "https://www.stats.gov.cn/sj/sjjd/rss.xml",
+        "homepage": "https://www.stats.gov.cn/sj/sjjd/",
+        "topic_hint": "macro-commentary"
+      }
+    ],
+    "_blocked": [
+      { "name": "CSRC 证监会要闻", "issue": "List page is JS-rendered SPA; old RSS endpoints (/rss.xml, /pub/newsite/zjhxwfb/xwdd/rss.xml) all 200 with text/html homepage. JSON API exists at /searchList/{uuid} but channelId mapping not public. Would need headless-browser scraping; out of scope for P4 v0." },
+      { "name": "PBoC 人民银行", "issue": "Same SPA pattern as CSRC. Listing pages 200/text-html but article list loaded via AJAX. RSS endpoints 404 across the board." },
+      { "name": "HKEX 港交所", "issue": "All endpoints return 503 even with Chrome UA + full Accept headers — bot-protection (Akamai/CFD WAF). News listings only via news center HTML which is also bot-protected." },
+      { "name": "SSE 上交所 / SZSE 深交所", "issue": "Disclosure listing pages 200/text-html only; old RSS endpoints (announce_RSS.xml etc.) 404." },
+      { "name": "Xinhua 新华社时政", "issue": "RSS at xinhuanet.com/politics/news_politics.xml returns 200/text-xml but feed has not updated since 2022-12. Effectively dead." },
+      { "name": "新华社 / NFRA / SAFE", "issue": "No public RSS found." }
+    ]
+  },
+
+  "vc_blogs": {
+    "tier": 2,
+    "_notes": "No working public RSS confirmed for major PRC investment banks (CICC 中金 / CITIC 中信证券 / Huatai 华泰证券) or top-tier RMB VCs (Hillhouse 高瓴 / Sequoia China 红杉中国). research.cicc.com/rss returns 403, others return HTML homepages. Section kept as scaffold for future when one comes online.",
+    "feeds": []
+  },
+
+  "limits": {
+    "regulator_lookback_hours": 96,
+    "vc_lookback_hours": 504
+  }
+}
