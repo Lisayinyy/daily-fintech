@@ -1,13 +1,121 @@
 {
   "region": "US",
-  "generated_at": "2026-05-20T12:42:42.335Z",
+  "generated_at": "2026-05-21T13:44:43.650Z",
   "counts": {
-    "total": 0,
+    "total": 7,
     "by_tier": {
-      "1": 0,
-      "2": 0
+      "1": 4,
+      "2": 3
     },
-    "by_source": {}
+    "by_source": {
+      "SEC EDGAR": 2,
+      "Federal Reserve": 2,
+      "Lightspeed": 3
+    }
   },
-  "items": []
+  "items": [
+    {
+      "id": "sec-nvda-10-q-0001045810-26-000052",
+      "title": "NVIDIA Corporation files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.htm",
+      "published_at": "2026-05-20T20:35:52.000Z",
+      "raw_excerpt": "Filed: 2026-05-20 AccNo: 0001045810-26-000052 Size: 7 MB",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-nvda-8-k-0001045810-26-000051",
+      "title": "NVIDIA Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051-index.htm",
+      "published_at": "2026-05-20T20:21:19.000Z",
+      "raw_excerpt": "Filed: 2026-05-20 AccNo: 0001045810-26-000051 Size: 637 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "federal-reserve-federal-reserve-board-requests-public-comment-on-a-proposal-to-establish-a-payment-account-which-legally",
+      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling ",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
+      "published_at": "2026-05-20T20:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "federal-reserve-minutes-of-the-federal-open-market-committee-april-28-29-2026-1779300000000",
+      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+      "published_at": "2026-05-20T18:00:00.000Z",
+      "raw_excerpt": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "lightspeed-tripling-down-on-exa-to-build-the-search-engine-for-ai-1779293271000",
+      "title": "Tripling Down on Exa to build the Search Engine for AI",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/tripling-down-on-exa-to-build-the-search-engine-for-ai/",
+      "published_at": "2026-05-20T16:07:51.000Z",
+      "raw_excerpt": "The post Tripling Down on Exa to build the Search Engine for AI appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "lightspeed-jai-malik-1779291170000",
+      "title": "Jai Malik",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/founder/jai-malik/",
+      "published_at": "2026-05-20T15:32:50.000Z",
+      "raw_excerpt": "The post Jai Malik appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "lightspeed-a-golden-age-of-engineered-parts-amca-8217-s-series-b-1779290570000",
+      "title": "A Golden Age of Engineered Parts: Amca&#8217;s Series B",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/a-golden-age-of-engineered-parts-amcas-series-b/",
+      "published_at": "2026-05-20T15:22:50.000Z",
+      "raw_excerpt": "The post A Golden Age of Engineered Parts: Amca&#8217;s Series B appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    }
+  ]
 }
