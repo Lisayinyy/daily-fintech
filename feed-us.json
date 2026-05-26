@@ -1,35 +1,13 @@
 {
   "region": "US",
-  "generated_at": "2026-05-25T13:46:05.278Z",
+  "generated_at": "2026-05-26T13:27:33.229Z",
   "counts": {
-    "total": 1,
+    "total": 0,
     "by_tier": {
-      "1": 1,
+      "1": 0,
       "2": 0
     },
-    "by_source": {
-      "SEC EDGAR": 1
-    }
+    "by_source": {}
   },
-  "items": [
-    {
-      "id": "sec-amzn-8-k-0001104659-26-065717",
-      "title": "Amazon.com files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/0001104659-26-065717-index.htm",
-      "published_at": "2026-05-22T20:12:53.000Z",
-      "raw_excerpt": "Filed: 2026-05-22 AccNo: 0001104659-26-065717 Size: 319 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
-      "region": "US",
-      "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "AMZN",
-        "cik": "0001018724",
-        "filing_type": "8-K"
-      }
-    }
-  ]
+  "items": []
 }
