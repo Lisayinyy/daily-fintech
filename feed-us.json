@@ -1,42 +1,55 @@
 {
   "region": "US",
-  "generated_at": "2026-05-28T14:10:33.472Z",
+  "generated_at": "2026-05-29T13:43:21.011Z",
   "counts": {
-    "total": 2,
+    "total": 3,
     "by_tier": {
       "1": 1,
-      "2": 1
+      "2": 2
     },
     "by_source": {
-      "SEC Press": 1,
-      "Lightspeed": 1
+      "Lightspeed": 2,
+      "Federal Reserve": 1
     }
   },
   "items": [
     {
-      "id": "sec-press-sec-investor-advisory-committee-to-host-june-4-meeting-1779893953000",
-      "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
-      "source_name": "SEC Press",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
-      "published_at": "2026-05-27T14:59:13.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission’s&nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund…",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "lightspeed-file-systems-for-agents-1779362835000",
-      "title": "File Systems for Agents",
+      "id": "lightspeed-the-developer-platform-for-world-models-our-series-a-in-reactor-1779985913000",
+      "title": "The Developer Platform for World Models: Our Series A in Reactor",
       "source_name": "Lightspeed",
       "source_tier": 2,
-      "source_url": "https://lsvp.com/stories/filesystemsforagents/",
-      "published_at": "2026-05-21T11:27:15.000Z",
-      "raw_excerpt": "The post File Systems for Agents appeared first on Lightspeed Venture Partners .",
+      "source_url": "https://lsvp.com/stories/the-developer-platform-for-world-models-our-series-a-in-reactor/",
+      "published_at": "2026-05-28T16:31:53.000Z",
+      "raw_excerpt": "The post The Developer Platform for World Models: Our Series A in Reactor appeared first on Lightspeed Venture Partners .",
       "region": "US",
       "topics": [
         "vc-thesis"
+      ]
+    },
+    {
+      "id": "lightspeed-alberto-taiuti-1779984958000",
+      "title": "Alberto Taiuti",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/founder/alberto-taiuti/",
+      "published_at": "2026-05-28T16:15:58.000Z",
+      "raw_excerpt": "The post Alberto Taiuti appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "federal-reserve-federal-reserve-board-issues-enforcement-actions-with-former-employee-of-atlantic-union-bank-and-former-",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
+      "published_at": "2026-05-28T15:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+      "region": "US",
+      "topics": [
+        "regulatory"
       ]
     }
   ]
