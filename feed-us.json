@@ -1,35 +1,43 @@
 {
   "region": "US",
-  "generated_at": "2026-06-01T16:22:56.421Z",
+  "generated_at": "2026-06-02T14:36:54.127Z",
   "counts": {
-    "total": 1,
+    "total": 2,
     "by_tier": {
       "1": 1,
-      "2": 0
+      "2": 1
     },
     "by_source": {
-      "SEC EDGAR": 1
+      "Sequoia Capital": 1,
+      "SEC Press": 1
     }
   },
   "items": [
     {
-      "id": "sec-meta-8-k-0001628280-26-039193",
-      "title": "Meta Platforms files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193-index.htm",
-      "published_at": "2026-05-29T20:16:13.000Z",
-      "raw_excerpt": "Filed: 2026-05-29 AccNo: 0001628280-26-039193 Size: 239 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "id": "sequoia-capital-listen-to-the-market-1780345931000",
+      "title": "Listen to the Market",
+      "source_name": "Sequoia Capital",
+      "source_tier": 2,
+      "source_url": "https://sequoiacap.com/article/listen-to-the-market/",
+      "published_at": "2026-06-01T20:32:11.000Z",
+      "raw_excerpt": "The post Listen to the Market appeared first on Sequoia Capital .",
       "region": "US",
       "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "META",
-        "cik": "0001326801",
-        "filing_type": "8-K"
-      }
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sec-press-sec-announces-four-new-members-of-investor-advisory-committee-1780331984000",
+      "title": "SEC Announces Four New Members of Investor Advisory Committee",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee",
+      "published_at": "2026-06-01T16:39:44.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission today announced&nbsp;four&nbsp;new members to fill vacancies on its Investor Advisory Committee.&nbsp;Three of the four new members&nbsp;will serve four-year terms,&nbsp;while the fourth new member will serve as the…",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
     }
   ]
 }
