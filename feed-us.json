@@ -1,43 +1,225 @@
 {
   "region": "US",
-  "generated_at": "2026-06-03T15:16:31.748Z",
+  "generated_at": "2026-06-04T13:39:59.517Z",
   "counts": {
-    "total": 2,
+    "total": 11,
     "by_tier": {
-      "1": 2,
+      "1": 11,
       "2": 0
     },
     "by_source": {
-      "Federal Reserve": 1,
-      "SEC Press": 1
+      "SEC EDGAR": 11
     }
   },
   "items": [
     {
-      "id": "federal-reserve-agencies-remove-additional-references-to-reputation-risk-1780412400000",
-      "title": "Agencies remove additional references to reputation risk",
-      "source_name": "Federal Reserve",
+      "id": "sec-hood-8-k-0001783879-26-000068",
+      "title": "Robinhood Markets files 8-K",
+      "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260602a.htm",
-      "published_at": "2026-06-02T15:00:00.000Z",
-      "raw_excerpt": "Agencies remove additional references to reputation risk",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000068/0001783879-26-000068-index.htm",
+      "published_at": "2026-06-03T20:06:22.000Z",
+      "raw_excerpt": "Filed: 2026-06-03 AccNo: 0001783879-26-000068 Size: 172 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
       "region": "US",
       "topics": [
-        "regulatory"
-      ]
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "HOOD",
+        "cik": "0001783879",
+        "filing_type": "8-K"
+      }
     },
     {
-      "id": "sec-press-sec-publishes-draft-strategic-plan-for-public-comment-1780410600000",
-      "title": "SEC Publishes Draft Strategic Plan for Public Comment",
-      "source_name": "SEC Press",
+      "id": "sec-amd-8-k-0001193125-26-226746",
+      "title": "Advanced Micro Devices files 8-K",
+      "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment",
-      "published_at": "2026-06-02T14:30:00.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission today published a&nbsp;Draft Strategic Plan&nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/0001193125-26-226746-index.htm",
+      "published_at": "2026-05-15T20:12:53.000Z",
+      "raw_excerpt": "Filed: 2026-05-15 AccNo: 0001193125-26-226746 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 1.02: Termination of a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.07: Submission of Matters to a Vote of Sec",
       "region": "US",
       "topics": [
-        "regulatory"
-      ]
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "AMD",
+        "cik": "0000002488",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-msft-8-k-0001193125-26-224155",
+      "title": "Microsoft Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/0001193125-26-224155-index.htm",
+      "published_at": "2026-05-14T20:28:48.000Z",
+      "raw_excerpt": "Filed: 2026-05-14 AccNo: 0001193125-26-224155 Size: 189 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-googl-8-k-0001193125-26-216986",
+      "title": "Alphabet Inc. files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526216986/0001193125-26-216986-index.htm",
+      "published_at": "2026-05-11T20:45:29.000Z",
+      "raw_excerpt": "Filed: 2026-05-11 AccNo: 0001193125-26-216986 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "GOOGL",
+        "cik": "0001652044",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-hood-8-k-0001783879-26-000065",
+      "title": "Robinhood Markets files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000065/0001783879-26-000065-index.htm",
+      "published_at": "2026-05-08T21:10:23.000Z",
+      "raw_excerpt": "Filed: 2026-05-08 AccNo: 0001783879-26-000065 Size: 149 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "HOOD",
+        "cik": "0001783879",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-nvda-8-k-0001045810-26-000028",
+      "title": "NVIDIA Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000028/0001045810-26-000028-index.htm",
+      "published_at": "2026-05-08T20:35:07.000Z",
+      "raw_excerpt": "Filed: 2026-05-08 AccNo: 0001045810-26-000028 Size: 135 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-coin-10-q-0001679788-26-000054",
+      "title": "Coinbase Global files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000054/0001679788-26-000054-index.htm",
+      "published_at": "2026-05-07T20:20:01.000Z",
+      "raw_excerpt": "Filed: 2026-05-07 AccNo: 0001679788-26-000054 Size: 9 MB",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "COIN",
+        "cik": "0001679788",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-coin-8-k-0001679788-26-000053",
+      "title": "Coinbase Global files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/0001679788-26-000053-index.htm",
+      "published_at": "2026-05-07T20:11:02.000Z",
+      "raw_excerpt": "Filed: 2026-05-07 AccNo: 0001679788-26-000053 Size: 7 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "COIN",
+        "cik": "0001679788",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-sofi-10-q-0001818874-26-000037",
+      "title": "SoFi Technologies files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/0001818874-26-000037-index.htm",
+      "published_at": "2026-05-07T10:15:46.000Z",
+      "raw_excerpt": "Filed: 2026-05-07 AccNo: 0001818874-26-000037 Size: 19 MB",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "SOFI",
+        "cik": "0001818874",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-amd-10-q-0000002488-26-000076",
+      "title": "Advanced Micro Devices files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/0000002488-26-000076-index.htm",
+      "published_at": "2026-05-05T22:06:27.000Z",
+      "raw_excerpt": "Filed: 2026-05-06 AccNo: 0000002488-26-000076 Size: 7 MB",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "AMD",
+        "cik": "0000002488",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-amd-8-k-0000002488-26-000072",
+      "title": "Advanced Micro Devices files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/0000002488-26-000072-index.htm",
+      "published_at": "2026-05-05T20:16:06.000Z",
+      "raw_excerpt": "Filed: 2026-05-05 AccNo: 0000002488-26-000072 Size: 3 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "AMD",
+        "cik": "0000002488",
+        "filing_type": "8-K"
+      }
     }
   ]
 }
