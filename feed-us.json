@@ -1,26 +1,40 @@
 {
   "region": "US",
-  "generated_at": "2026-06-05T13:36:14.308Z",
+  "generated_at": "2026-06-08T14:33:40.915Z",
   "counts": {
-    "total": 2,
+    "total": 9,
     "by_tier": {
-      "1": 2,
-      "2": 0
+      "1": 6,
+      "2": 3
     },
     "by_source": {
-      "SEC EDGAR": 1,
-      "SEC Press": 1
+      "Lightspeed": 2,
+      "SEC EDGAR": 6,
+      "Sequoia Capital": 1
     }
   },
   "items": [
     {
-      "id": "sec-googl-8-k-0001193125-26-257724",
+      "id": "lightspeed-outgunning-ai-weaponization-our-investment-in-a-security-1780924701000",
+      "title": "Outgunning AI Weaponization: Our Investment In A Security",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/outgunning-ai-weaponization-our-investment-in-a-security/",
+      "published_at": "2026-06-08T13:18:21.000Z",
+      "raw_excerpt": "The post Outgunning AI Weaponization: Our Investment In A Security appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sec-googl-8-k-0001193125-26-259830",
       "title": "Alphabet Inc. files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/0001193125-26-257724-index.htm",
-      "published_at": "2026-06-04T21:07:39.000Z",
-      "raw_excerpt": "Filed: 2026-06-04 AccNo: 0001193125-26-257724 Size: 663 KB Item 1.01: Entry into a Material Definitive Agreement Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/0001193125-26-259830-index.htm",
+      "published_at": "2026-06-05T20:52:38.000Z",
+      "raw_excerpt": "Filed: 2026-06-05 AccNo: 0001193125-26-259830 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
       "region": "US",
       "topics": [
         "regulatory",
@@ -33,16 +47,124 @@
       }
     },
     {
-      "id": "sec-press-sec-announces-new-members-of-small-business-capital-formation-advisory-committee-1780598389000",
-      "title": "SEC Announces New Members of Small Business Capital Formation Advisory Committee",
-      "source_name": "SEC Press",
+      "id": "sec-googl-8-k-0001652044-26-000059",
+      "title": "Alphabet Inc. files 8-K",
+      "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-52-sec-announces-new-members-small-business-capital-formation-advisory-committee",
-      "published_at": "2026-06-04T18:39:49.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission today announced five new members of the&nbsp;Small Business Capital Formation Advisory Committee. The new members were appointed to four-year terms&nbsp;and&nbsp;will join&nbsp;the&nbsp;15&nbsp;current&nbsp;…",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000059/0001652044-26-000059-index.htm",
+      "published_at": "2026-06-05T20:40:20.000Z",
+      "raw_excerpt": "Filed: 2026-06-05 AccNo: 0001652044-26-000059 Size: 411 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
       "region": "US",
       "topics": [
-        "regulatory"
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "GOOGL",
+        "cik": "0001652044",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-msft-8-k-0001193125-26-258667",
+      "title": "Microsoft Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/0001193125-26-258667-index.htm",
+      "published_at": "2026-06-05T14:36:56.000Z",
+      "raw_excerpt": "Filed: 2026-06-05 AccNo: 0001193125-26-258667 Size: 178 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-googl-8-k-0001193125-26-234488",
+      "title": "Alphabet Inc. files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526234488/0001193125-26-234488-index.htm",
+      "published_at": "2026-05-21T20:25:10.000Z",
+      "raw_excerpt": "Filed: 2026-05-21 AccNo: 0001193125-26-234488 Size: 862 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "GOOGL",
+        "cik": "0001652044",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sequoia-capital-all-systems-nominal-8211-nominal-spotlight-1779377744000",
+      "title": "All Systems Nominal &#8211; Nominal Spotlight",
+      "source_name": "Sequoia Capital",
+      "source_tier": 2,
+      "source_url": "https://sequoiacap.com/article/all-systems-nominal-nominal-spotlight/",
+      "published_at": "2026-05-21T15:35:44.000Z",
+      "raw_excerpt": "The post All Systems Nominal &#8211; Nominal Spotlight appeared first on Sequoia Capital .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sec-nvda-10-q-0001045810-26-000052",
+      "title": "NVIDIA Corporation files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.htm",
+      "published_at": "2026-05-20T20:35:52.000Z",
+      "raw_excerpt": "Filed: 2026-05-20 AccNo: 0001045810-26-000052 Size: 7 MB",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-nvda-8-k-0001045810-26-000051",
+      "title": "NVIDIA Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051-index.htm",
+      "published_at": "2026-05-20T20:21:19.000Z",
+      "raw_excerpt": "Filed: 2026-05-20 AccNo: 0001045810-26-000051 Size: 637 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "lightspeed-tripling-down-on-exa-to-build-the-search-engine-for-ai-1779293271000",
+      "title": "Tripling Down on Exa to build the Search Engine for AI",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/tripling-down-on-exa-to-build-the-search-engine-for-ai/",
+      "published_at": "2026-05-20T16:07:51.000Z",
+      "raw_excerpt": "The post Tripling Down on Exa to build the Search Engine for AI appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
       ]
     }
   ]
