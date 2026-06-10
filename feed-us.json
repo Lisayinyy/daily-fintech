@@ -1,39 +1,27 @@
 {
   "region": "US",
-  "generated_at": "2026-06-09T13:23:41.501Z",
+  "generated_at": "2026-06-10T13:56:46.761Z",
   "counts": {
-    "total": 2,
+    "total": 4,
     "by_tier": {
-      "1": 2,
-      "2": 0
+      "1": 3,
+      "2": 1
     },
     "by_source": {
-      "SEC Press": 1,
-      "SEC EDGAR": 1
+      "SEC EDGAR": 2,
+      "Federal Reserve": 1,
+      "Lightspeed": 1
     }
   },
   "items": [
     {
-      "id": "sec-press-sec-establishes-joint-data-standards-as-required-under-the-financial-data-transparency-act-of-2022-17809293600",
-      "title": "SEC Establishes Joint Data Standards as Required Under the Financial Data Transparency Act of 2022",
-      "source_name": "SEC Press",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022",
-      "published_at": "2026-06-08T14:36:00.000Z",
-      "raw_excerpt": "The U.S. Securities and Exchange Commission established joint data standards under the Financial Data Transparency Act of 2022. The final rule establishes technical standards for data submitted to certain financial regulatory agencies. Eight additional…",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "sec-amzn-8-k-0001104659-26-065717",
+      "id": "sec-amzn-8-k-0001104659-26-072140",
       "title": "Amazon.com files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/0001104659-26-065717-index.htm",
-      "published_at": "2026-05-22T20:12:53.000Z",
-      "raw_excerpt": "Filed: 2026-05-22 AccNo: 0001104659-26-065717 Size: 319 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/0001104659-26-072140-index.htm",
+      "published_at": "2026-06-10T13:00:19.000Z",
+      "raw_excerpt": "Filed: 2026-06-10 AccNo: 0001104659-26-072140 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
       "region": "US",
       "topics": [
         "regulatory",
@@ -44,6 +32,51 @@
         "cik": "0001018724",
         "filing_type": "8-K"
       }
+    },
+    {
+      "id": "sec-pltr-8-k-0001321655-26-000033",
+      "title": "Palantir Technologies files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/0001321655-26-000033-index.htm",
+      "published_at": "2026-06-09T20:05:18.000Z",
+      "raw_excerpt": "Filed: 2026-06-09 AccNo: 0001321655-26-000033 Size: 166 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "PLTR",
+        "cik": "0001321655",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "federal-reserve-federal-reserve-board-announces-that-results-from-its-annual-bank-stress-test-will-be-released-on-wednes",
+      "title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm",
+      "published_at": "2026-06-09T20:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "lightspeed-the-operating-system-for-in-house-legal-our-series-a-in-sandstone-1781019056000",
+      "title": "The Operating System for In-House Legal: Our Series A in Sandstone",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/the-operating-system-for-in-house-legal-our-series-a-in-sandstone/",
+      "published_at": "2026-06-09T15:30:56.000Z",
+      "raw_excerpt": "The post The Operating System for In-House Legal: Our Series A in Sandstone appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
     }
   ]
 }
