@@ -1,62 +1,61 @@
 {
   "region": "US",
-  "generated_at": "2026-06-12T13:45:59.973Z",
+  "generated_at": "2026-06-15T16:08:25.339Z",
   "counts": {
     "total": 3,
     "by_tier": {
-      "1": 3,
-      "2": 0
+      "1": 1,
+      "2": 2
     },
     "by_source": {
       "SEC EDGAR": 1,
-      "Federal Reserve": 1,
-      "SEC Press": 1
+      "Lightspeed": 2
     }
   },
   "items": [
     {
-      "id": "sec-googl-8-k-0001193125-26-267578",
-      "title": "Alphabet Inc. files 8-K",
+      "id": "sec-amzn-8-k-0001104659-26-073562",
+      "title": "Amazon.com files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/0001193125-26-267578-index.htm",
-      "published_at": "2026-06-11T20:17:04.000Z",
-      "raw_excerpt": "Filed: 2026-06-11 AccNo: 0001193125-26-267578 Size: 528 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/0001104659-26-073562-index.htm",
+      "published_at": "2026-06-12T21:00:28.000Z",
+      "raw_excerpt": "Filed: 2026-06-12 AccNo: 0001104659-26-073562 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "GOOGL",
-        "cik": "0001652044",
+        "ticker": "AMZN",
+        "cik": "0001018724",
         "filing_type": "8-K"
       }
     },
     {
-      "id": "federal-reserve-federal-reserve-board-announces-final-rule-that-establishes-data-standards-for-certain-information-colle",
-      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
-      "published_at": "2026-06-11T15:00:00.000Z",
-      "raw_excerpt": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
+      "id": "lightspeed-the-developer-platform-for-world-models-our-series-a-in-reactor-1779985913000",
+      "title": "The Developer Platform for World Models: Our Series A in Reactor",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/the-developer-platform-for-world-models-our-series-a-in-reactor/",
+      "published_at": "2026-05-28T16:31:53.000Z",
+      "raw_excerpt": "The post The Developer Platform for World Models: Our Series A in Reactor appeared first on Lightspeed Venture Partners .",
       "region": "US",
       "topics": [
-        "regulatory"
+        "vc-thesis"
       ]
     },
     {
-      "id": "sec-press-sec-proposes-rescission-of-regulation-nms-rules-611-and-610-e-1781189700000",
-      "title": "SEC Proposes Rescission of Regulation NMS Rules 611 and 610(e)",
-      "source_name": "SEC Press",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-54-sec-proposes-rescission-regulation-nms-rules-611-610e",
-      "published_at": "2026-06-11T14:55:00.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission today proposed amendments to rescind Rules 611 and 610(e) of Regulation NMS.“After two decades of Rule 611, it is high time that the Commission review its unintended consequences that have hindered — rather than…",
+      "id": "lightspeed-alberto-taiuti-1779984958000",
+      "title": "Alberto Taiuti",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/founder/alberto-taiuti/",
+      "published_at": "2026-05-28T16:15:58.000Z",
+      "raw_excerpt": "The post Alberto Taiuti appeared first on Lightspeed Venture Partners .",
       "region": "US",
       "topics": [
-        "regulatory"
+        "vc-thesis"
       ]
     }
   ]
