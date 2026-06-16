@@ -1,62 +1,35 @@
 {
   "region": "US",
-  "generated_at": "2026-06-15T16:08:25.339Z",
+  "generated_at": "2026-06-16T15:27:33.486Z",
   "counts": {
-    "total": 3,
+    "total": 1,
     "by_tier": {
       "1": 1,
-      "2": 2
+      "2": 0
     },
     "by_source": {
-      "SEC EDGAR": 1,
-      "Lightspeed": 2
+      "SEC EDGAR": 1
     }
   },
   "items": [
     {
-      "id": "sec-amzn-8-k-0001104659-26-073562",
-      "title": "Amazon.com files 8-K",
+      "id": "sec-hood-8-k-0001783879-26-000071",
+      "title": "Robinhood Markets files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/0001104659-26-073562-index.htm",
-      "published_at": "2026-06-12T21:00:28.000Z",
-      "raw_excerpt": "Filed: 2026-06-12 AccNo: 0001104659-26-073562 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000071/0001783879-26-000071-index.htm",
+      "published_at": "2026-06-16T10:00:44.000Z",
+      "raw_excerpt": "Filed: 2026-06-16 AccNo: 0001783879-26-000071 Size: 155 KB Item 2.05: Cost Associated with Exit or Disposal Activities",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "AMZN",
-        "cik": "0001018724",
+        "ticker": "HOOD",
+        "cik": "0001783879",
         "filing_type": "8-K"
       }
-    },
-    {
-      "id": "lightspeed-the-developer-platform-for-world-models-our-series-a-in-reactor-1779985913000",
-      "title": "The Developer Platform for World Models: Our Series A in Reactor",
-      "source_name": "Lightspeed",
-      "source_tier": 2,
-      "source_url": "https://lsvp.com/stories/the-developer-platform-for-world-models-our-series-a-in-reactor/",
-      "published_at": "2026-05-28T16:31:53.000Z",
-      "raw_excerpt": "The post The Developer Platform for World Models: Our Series A in Reactor appeared first on Lightspeed Venture Partners .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
-    },
-    {
-      "id": "lightspeed-alberto-taiuti-1779984958000",
-      "title": "Alberto Taiuti",
-      "source_name": "Lightspeed",
-      "source_tier": 2,
-      "source_url": "https://lsvp.com/founder/alberto-taiuti/",
-      "published_at": "2026-05-28T16:15:58.000Z",
-      "raw_excerpt": "The post Alberto Taiuti appeared first on Lightspeed Venture Partners .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
     }
   ]
 }
