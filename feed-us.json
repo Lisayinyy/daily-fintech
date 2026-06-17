@@ -1,33 +1,61 @@
 {
   "region": "US",
-  "generated_at": "2026-06-16T15:27:33.486Z",
+  "generated_at": "2026-06-17T14:07:54.161Z",
   "counts": {
-    "total": 1,
+    "total": 3,
     "by_tier": {
       "1": 1,
-      "2": 0
+      "2": 2
     },
     "by_source": {
+      "Lightspeed": 1,
+      "Sequoia Capital": 1,
       "SEC EDGAR": 1
     }
   },
   "items": [
     {
-      "id": "sec-hood-8-k-0001783879-26-000071",
-      "title": "Robinhood Markets files 8-K",
+      "id": "lightspeed-audit-s-moment-has-arrived-why-we-invested-in-andera-1781703249000",
+      "title": "Audit’s Moment Has Arrived. Why We Invested in Andera.",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/audits-moment-has-arrived-why-we-invested-in-andera/",
+      "published_at": "2026-06-17T13:34:09.000Z",
+      "raw_excerpt": "The post Audit’s Moment Has Arrived. Why We Invested in Andera. appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sequoia-capital-listen-to-the-market-1780345931000",
+      "title": "Listen to the Market",
+      "source_name": "Sequoia Capital",
+      "source_tier": 2,
+      "source_url": "https://sequoiacap.com/article/listen-to-the-market/",
+      "published_at": "2026-06-01T20:32:11.000Z",
+      "raw_excerpt": "The post Listen to the Market appeared first on Sequoia Capital .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sec-meta-8-k-0001628280-26-039193",
+      "title": "Meta Platforms files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000071/0001783879-26-000071-index.htm",
-      "published_at": "2026-06-16T10:00:44.000Z",
-      "raw_excerpt": "Filed: 2026-06-16 AccNo: 0001783879-26-000071 Size: 155 KB Item 2.05: Cost Associated with Exit or Disposal Activities",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193-index.htm",
+      "published_at": "2026-05-29T20:16:13.000Z",
+      "raw_excerpt": "Filed: 2026-05-29 AccNo: 0001628280-26-039193 Size: 239 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "HOOD",
-        "cik": "0001783879",
+        "ticker": "META",
+        "cik": "0001326801",
         "filing_type": "8-K"
       }
     }
