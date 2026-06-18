@@ -1,63 +1,55 @@
 {
   "region": "US",
-  "generated_at": "2026-06-17T14:07:54.161Z",
+  "generated_at": "2026-06-18T13:47:09.334Z",
   "counts": {
     "total": 3,
     "by_tier": {
-      "1": 1,
-      "2": 2
+      "1": 3,
+      "2": 0
     },
     "by_source": {
-      "Lightspeed": 1,
-      "Sequoia Capital": 1,
-      "SEC EDGAR": 1
+      "Federal Reserve": 3
     }
   },
   "items": [
     {
-      "id": "lightspeed-audit-s-moment-has-arrived-why-we-invested-in-andera-1781703249000",
-      "title": "Audit’s Moment Has Arrived. Why We Invested in Andera.",
-      "source_name": "Lightspeed",
-      "source_tier": 2,
-      "source_url": "https://lsvp.com/stories/audits-moment-has-arrived-why-we-invested-in-andera/",
-      "published_at": "2026-06-17T13:34:09.000Z",
-      "raw_excerpt": "The post Audit’s Moment Has Arrived. Why We Invested in Andera. appeared first on Lightspeed Venture Partners .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
-    },
-    {
-      "id": "sequoia-capital-listen-to-the-market-1780345931000",
-      "title": "Listen to the Market",
-      "source_name": "Sequoia Capital",
-      "source_tier": 2,
-      "source_url": "https://sequoiacap.com/article/listen-to-the-market/",
-      "published_at": "2026-06-01T20:32:11.000Z",
-      "raw_excerpt": "The post Listen to the Market appeared first on Sequoia Capital .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
-    },
-    {
-      "id": "sec-meta-8-k-0001628280-26-039193",
-      "title": "Meta Platforms files 8-K",
-      "source_name": "SEC EDGAR",
+      "id": "federal-reserve-federal-reserve-board-requests-comment-on-proposal-to-require-certain-payment-stablecoin-issuers-to-main",
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "source_name": "Federal Reserve",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193-index.htm",
-      "published_at": "2026-05-29T20:16:13.000Z",
-      "raw_excerpt": "Filed: 2026-05-29 AccNo: 0001628280-26-039193 Size: 239 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+      "published_at": "2026-06-18T13:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
       "region": "US",
       "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "META",
-        "cik": "0001326801",
-        "filing_type": "8-K"
-      }
+        "regulatory"
+      ]
+    },
+    {
+      "id": "federal-reserve-federal-reserve-issues-fomc-statement-1781719200000",
+      "title": "Federal Reserve issues FOMC statement",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "published_at": "2026-06-17T18:00:00.000Z",
+      "raw_excerpt": "Federal Reserve issues FOMC statement",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "federal-reserve-federal-reserve-board-and-federal-open-market-committee-release-economic-projections-from-the-june-16-17",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "published_at": "2026-06-17T18:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
     }
   ]
 }
