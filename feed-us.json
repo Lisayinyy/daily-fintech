@@ -1,39 +1,58 @@
 {
   "region": "US",
-  "generated_at": "2026-06-22T15:35:42.115Z",
+  "generated_at": "2026-06-23T13:21:04.031Z",
   "counts": {
-    "total": 2,
+    "total": 5,
     "by_tier": {
-      "1": 2,
-      "2": 0
+      "1": 4,
+      "2": 1
     },
     "by_source": {
-      "Federal Reserve": 1,
-      "SEC EDGAR": 1
+      "Sequoia Capital": 1,
+      "SEC EDGAR": 4
     }
   },
   "items": [
     {
-      "id": "federal-reserve-federal-reserve-notes-with-deep-sadness-the-passing-of-alan-greenspan-1782132300000",
-      "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
-      "published_at": "2026-06-22T12:45:00.000Z",
-      "raw_excerpt": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
+      "id": "sequoia-capital-partnering-with-probook-ai-for-the-trades-1782219609000",
+      "title": "Partnering with Probook: AI for the Trades",
+      "source_name": "Sequoia Capital",
+      "source_tier": 2,
+      "source_url": "https://sequoiacap.com/article/partnering-with-probook-ai-for-the-trades/",
+      "published_at": "2026-06-23T13:00:09.000Z",
+      "raw_excerpt": "The post Partnering with Probook: AI for the Trades appeared first on Sequoia Capital .",
       "region": "US",
       "topics": [
-        "regulatory"
+        "vc-thesis"
       ]
     },
     {
-      "id": "sec-googl-8-k-0001193125-26-257724",
+      "id": "sec-hood-8-k-0001783879-26-000074",
+      "title": "Robinhood Markets files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000074/0001783879-26-000074-index.htm",
+      "published_at": "2026-06-23T10:04:43.000Z",
+      "raw_excerpt": "Filed: 2026-06-23 AccNo: 0001783879-26-000074 Size: 2 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "HOOD",
+        "cik": "0001783879",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-googl-8-k-0001193125-26-259830",
       "title": "Alphabet Inc. files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/0001193125-26-257724-index.htm",
-      "published_at": "2026-06-04T21:07:39.000Z",
-      "raw_excerpt": "Filed: 2026-06-04 AccNo: 0001193125-26-257724 Size: 663 KB Item 1.01: Entry into a Material Definitive Agreement Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/0001193125-26-259830-index.htm",
+      "published_at": "2026-06-05T20:52:38.000Z",
+      "raw_excerpt": "Filed: 2026-06-05 AccNo: 0001193125-26-259830 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
       "region": "US",
       "topics": [
         "regulatory",
@@ -42,6 +61,44 @@
       "meta": {
         "ticker": "GOOGL",
         "cik": "0001652044",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-googl-8-k-0001652044-26-000059",
+      "title": "Alphabet Inc. files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000059/0001652044-26-000059-index.htm",
+      "published_at": "2026-06-05T20:40:20.000Z",
+      "raw_excerpt": "Filed: 2026-06-05 AccNo: 0001652044-26-000059 Size: 411 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "GOOGL",
+        "cik": "0001652044",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-msft-8-k-0001193125-26-258667",
+      "title": "Microsoft Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/0001193125-26-258667-index.htm",
+      "published_at": "2026-06-05T14:36:56.000Z",
+      "raw_excerpt": "Filed: 2026-06-05 AccNo: 0001193125-26-258667 Size: 178 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "MSFT",
+        "cik": "0000789019",
         "filing_type": "8-K"
       }
     }
