@@ -1,13 +1,43 @@
 {
   "region": "US",
-  "generated_at": "2026-06-24T12:34:06.066Z",
+  "generated_at": "2026-06-25T12:37:18.700Z",
   "counts": {
-    "total": 0,
+    "total": 2,
     "by_tier": {
-      "1": 0,
+      "1": 2,
       "2": 0
     },
-    "by_source": {}
+    "by_source": {
+      "Federal Reserve": 1,
+      "SEC Press": 1
+    }
   },
-  "items": []
+  "items": [
+    {
+      "id": "federal-reserve-federal-reserve-board-s-annual-bank-stress-test-confirms-that-large-banks-are-well-positioned-to-weather",
+      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
+      "published_at": "2026-06-24T20:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board&#39;s annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "sec-press-sec-appoints-kathleen-hutchinson-as-director-of-office-of-international-affairs-1782325920000",
+      "title": "SEC Appoints Kathleen Hutchinson as Director of Office of International Affairs",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office-international-affairs",
+      "published_at": "2026-06-24T18:32:00.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission has appointed Kathleen M. Hutchinson as Director of the agency’s Office of International Affairs (OIA). OIA advises the Commission on international policy matters, coordinates with foreign authorities across the…",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    }
+  ]
 }
