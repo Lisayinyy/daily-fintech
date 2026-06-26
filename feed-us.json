@@ -1,43 +1,100 @@
 {
   "region": "US",
-  "generated_at": "2026-06-25T12:37:18.700Z",
+  "generated_at": "2026-06-26T12:32:09.328Z",
   "counts": {
-    "total": 2,
+    "total": 5,
     "by_tier": {
-      "1": 2,
+      "1": 5,
       "2": 0
     },
     "by_source": {
-      "Federal Reserve": 1,
-      "SEC Press": 1
+      "SEC EDGAR": 3,
+      "Federal Reserve": 2
     }
   },
   "items": [
     {
-      "id": "federal-reserve-federal-reserve-board-s-annual-bank-stress-test-confirms-that-large-banks-are-well-positioned-to-weather",
-      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "id": "sec-hood-8-k-0001783879-26-000077",
+      "title": "Robinhood Markets files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000077/0001783879-26-000077-index.htm",
+      "published_at": "2026-06-25T21:25:27.000Z",
+      "raw_excerpt": "Filed: 2026-06-25 AccNo: 0001783879-26-000077 Size: 40 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "HOOD",
+        "cik": "0001783879",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "federal-reserve-federal-reserve-board-issues-enforcement-action-with-employee-of-bank-of-eufaula-and-s-n-b-bancshares-in",
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "source_name": "Federal Reserve",
       "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-      "published_at": "2026-06-24T20:00:00.000Z",
-      "raw_excerpt": "Federal Reserve Board&#39;s annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
+      "published_at": "2026-06-25T15:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "region": "US",
       "topics": [
         "regulatory"
       ]
     },
     {
-      "id": "sec-press-sec-appoints-kathleen-hutchinson-as-director-of-office-of-international-affairs-1782325920000",
-      "title": "SEC Appoints Kathleen Hutchinson as Director of Office of International Affairs",
-      "source_name": "SEC Press",
+      "id": "federal-reserve-federal-reserve-board-announces-termination-of-enforcement-action-with-jiko-group-inc-1782399600000",
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "source_name": "Federal Reserve",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office-international-affairs",
-      "published_at": "2026-06-24T18:32:00.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission has appointed Kathleen M. Hutchinson as Director of the agency’s Office of International Affairs (OIA). OIA advises the Commission on international policy matters, coordinates with foreign authorities across the…",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
+      "published_at": "2026-06-25T15:00:00.000Z",
+      "raw_excerpt": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
       "region": "US",
       "topics": [
         "regulatory"
       ]
+    },
+    {
+      "id": "sec-amzn-8-k-0001104659-26-072140",
+      "title": "Amazon.com files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/0001104659-26-072140-index.htm",
+      "published_at": "2026-06-10T13:00:19.000Z",
+      "raw_excerpt": "Filed: 2026-06-10 AccNo: 0001104659-26-072140 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-pltr-8-k-0001321655-26-000033",
+      "title": "Palantir Technologies files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/0001321655-26-000033-index.htm",
+      "published_at": "2026-06-09T20:05:18.000Z",
+      "raw_excerpt": "Filed: 2026-06-09 AccNo: 0001321655-26-000033 Size: 166 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "PLTR",
+        "cik": "0001321655",
+        "filing_type": "8-K"
+      }
     }
   ]
 }
