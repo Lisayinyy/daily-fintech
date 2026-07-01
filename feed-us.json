@@ -1,47 +1,94 @@
 {
   "region": "US",
-  "generated_at": "2026-06-30T12:29:14.862Z",
+  "generated_at": "2026-07-01T13:17:52.358Z",
   "counts": {
-    "total": 2,
+    "total": 5,
     "by_tier": {
-      "1": 1,
+      "1": 4,
       "2": 1
     },
     "by_source": {
-      "Lightspeed": 1,
-      "SEC EDGAR": 1
+      "SEC EDGAR": 2,
+      "SEC Press": 1,
+      "Federal Reserve": 1,
+      "Lightspeed": 1
     }
   },
   "items": [
     {
-      "id": "lightspeed-straiker-1782764244000",
-      "title": "Straiker",
-      "source_name": "Lightspeed",
-      "source_tier": 2,
-      "source_url": "https://lsvp.com/company/straiker/",
-      "published_at": "2026-06-29T20:17:24.000Z",
-      "raw_excerpt": "The post Straiker appeared first on Lightspeed Venture Partners .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
-    },
-    {
-      "id": "sec-googl-8-k-0001193125-26-267578",
-      "title": "Alphabet Inc. files 8-K",
+      "id": "sec-nvda-8-k-0001045810-26-000056",
+      "title": "NVIDIA Corporation files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/0001193125-26-267578-index.htm",
-      "published_at": "2026-06-11T20:17:04.000Z",
-      "raw_excerpt": "Filed: 2026-06-11 AccNo: 0001193125-26-267578 Size: 528 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/0001045810-26-000056-index.htm",
+      "published_at": "2026-06-30T20:27:26.000Z",
+      "raw_excerpt": "Filed: 2026-06-30 AccNo: 0001045810-26-000056 Size: 178 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "GOOGL",
-        "cik": "0001652044",
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-press-sec-seeks-public-comment-on-novel-exchange-traded-funds-1782828905000",
+      "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
+      "published_at": "2026-06-30T14:15:05.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission today issued a request for public comment on exchange-traded funds (ETFs) seeking to invest in innovative asset classes or engage in novel investment strategies. The request focuses on ways to facilitate innovation…",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "federal-reserve-agencies-release-list-of-distressed-or-underserved-nonmetropolitan-middle-income-geographies-17828280000",
+      "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+      "source_name": "Federal Reserve",
+      "source_tier": 1,
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
+      "published_at": "2026-06-30T14:00:00.000Z",
+      "raw_excerpt": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "lightspeed-america-runs-on-small-business-our-investment-in-pie-1782825803000",
+      "title": "America Runs on Small Business: Our Investment in Pie",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/stories/america-runs-on-small-business-our-investment-in-pie/",
+      "published_at": "2026-06-30T13:23:23.000Z",
+      "raw_excerpt": "The post America Runs on Small Business: Our Investment in Pie appeared first on Lightspeed Venture Partners .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sec-amzn-8-k-0001104659-26-073562",
+      "title": "Amazon.com files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/0001104659-26-073562-index.htm",
+      "published_at": "2026-06-12T21:00:28.000Z",
+      "raw_excerpt": "Filed: 2026-06-12 AccNo: 0001104659-26-073562 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "AMZN",
+        "cik": "0001018724",
         "filing_type": "8-K"
       }
     }
