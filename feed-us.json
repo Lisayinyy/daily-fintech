@@ -1,94 +1,80 @@
 {
   "region": "US",
-  "generated_at": "2026-07-01T13:17:52.358Z",
+  "generated_at": "2026-07-02T12:29:48.188Z",
   "counts": {
-    "total": 5,
+    "total": 4,
     "by_tier": {
       "1": 4,
-      "2": 1
+      "2": 0
     },
     "by_source": {
       "SEC EDGAR": 2,
-      "SEC Press": 1,
       "Federal Reserve": 1,
-      "Lightspeed": 1
+      "SEC Press": 1
     }
   },
   "items": [
     {
-      "id": "sec-nvda-8-k-0001045810-26-000056",
-      "title": "NVIDIA Corporation files 8-K",
+      "id": "sec-amd-8-k-0000002488-26-000115",
+      "title": "Advanced Micro Devices files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/0001045810-26-000056-index.htm",
-      "published_at": "2026-06-30T20:27:26.000Z",
-      "raw_excerpt": "Filed: 2026-06-30 AccNo: 0001045810-26-000056 Size: 178 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/0000002488-26-000115-index.htm",
+      "published_at": "2026-07-01T20:27:26.000Z",
+      "raw_excerpt": "Filed: 2026-07-01 AccNo: 0000002488-26-000115 Size: 171 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "NVDA",
-        "cik": "0001045810",
+        "ticker": "AMD",
+        "cik": "0000002488",
         "filing_type": "8-K"
       }
     },
     {
-      "id": "sec-press-sec-seeks-public-comment-on-novel-exchange-traded-funds-1782828905000",
-      "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
-      "source_name": "SEC Press",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
-      "published_at": "2026-06-30T14:15:05.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission today issued a request for public comment on exchange-traded funds (ETFs) seeking to invest in innovative asset classes or engage in novel investment strategies. The request focuses on ways to facilitate innovation…",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "federal-reserve-agencies-release-list-of-distressed-or-underserved-nonmetropolitan-middle-income-geographies-17828280000",
-      "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+      "id": "federal-reserve-federal-reserve-issues-initial-findings-from-its-2025-triennial-payments-study-1782930600000",
+      "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
       "source_name": "Federal Reserve",
       "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
-      "published_at": "2026-06-30T14:00:00.000Z",
-      "raw_excerpt": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+      "published_at": "2026-07-01T18:30:00.000Z",
+      "raw_excerpt": "Federal Reserve issues initial findings from its 2025 triennial payments study",
       "region": "US",
       "topics": [
         "regulatory"
       ]
     },
     {
-      "id": "lightspeed-america-runs-on-small-business-our-investment-in-pie-1782825803000",
-      "title": "America Runs on Small Business: Our Investment in Pie",
-      "source_name": "Lightspeed",
-      "source_tier": 2,
-      "source_url": "https://lsvp.com/stories/america-runs-on-small-business-our-investment-in-pie/",
-      "published_at": "2026-06-30T13:23:23.000Z",
-      "raw_excerpt": "The post America Runs on Small Business: Our Investment in Pie appeared first on Lightspeed Venture Partners .",
+      "id": "sec-press-sec-publishes-updated-market-statistics-highlighting-increase-in-ipos-and-proceeds-raised-1782910078000",
+      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
+      "published_at": "2026-07-01T12:47:58.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including three new asset-backed securities (ABS) issuance data…",
       "region": "US",
       "topics": [
-        "vc-thesis"
+        "regulatory"
       ]
     },
     {
-      "id": "sec-amzn-8-k-0001104659-26-073562",
-      "title": "Amazon.com files 8-K",
+      "id": "sec-hood-8-k-0001783879-26-000071",
+      "title": "Robinhood Markets files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/0001104659-26-073562-index.htm",
-      "published_at": "2026-06-12T21:00:28.000Z",
-      "raw_excerpt": "Filed: 2026-06-12 AccNo: 0001104659-26-073562 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000071/0001783879-26-000071-index.htm",
+      "published_at": "2026-06-16T10:00:44.000Z",
+      "raw_excerpt": "Filed: 2026-06-16 AccNo: 0001783879-26-000071 Size: 155 KB Item 2.05: Cost Associated with Exit or Disposal Activities",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "AMZN",
-        "cik": "0001018724",
+        "ticker": "HOOD",
+        "cik": "0001783879",
         "filing_type": "8-K"
       }
     }
