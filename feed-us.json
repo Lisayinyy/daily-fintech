@@ -1,13 +1,87 @@
 {
   "region": "US",
-  "generated_at": "2026-07-06T14:07:12.440Z",
+  "generated_at": "2026-07-07T12:44:03.497Z",
   "counts": {
-    "total": 0,
+    "total": 4,
     "by_tier": {
-      "1": 0,
+      "1": 4,
       "2": 0
     },
-    "by_source": {}
+    "by_source": {
+      "SEC Press": 1,
+      "SEC EDGAR": 3
+    }
   },
-  "items": []
+  "items": [
+    {
+      "id": "sec-press-sec-names-paul-knight-as-chief-operating-officer-1783365000000",
+      "title": "SEC Names Paul Knight as Chief Operating Officer",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer",
+      "published_at": "2026-07-06T19:10:00.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission today announced that Paul Knight has been named as the agency’s Chief Operating Officer (COO).As COO, Mr. Knight will oversee the SEC's operational and administrative functions, including the agency's Office of…",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "sec-sofi-8-k-0001818874-26-000043",
+      "title": "SoFi Technologies files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000043/0001818874-26-000043-index.htm",
+      "published_at": "2026-06-18T21:24:22.000Z",
+      "raw_excerpt": "Filed: 2026-06-18 AccNo: 0001818874-26-000043 Size: 157 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "SOFI",
+        "cik": "0001818874",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-coin-8-k-0001679788-26-000075",
+      "title": "Coinbase Global files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000075/0001679788-26-000075-index.htm",
+      "published_at": "2026-06-18T21:11:03.000Z",
+      "raw_excerpt": "Filed: 2026-06-18 AccNo: 0001679788-26-000075 Size: 167 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "COIN",
+        "cik": "0001679788",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-nvda-8-k-0001193125-26-275783",
+      "title": "NVIDIA Corporation files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526275783/0001193125-26-275783-index.htm",
+      "published_at": "2026-06-18T20:00:24.000Z",
+      "raw_excerpt": "Filed: 2026-06-18 AccNo: 0001193125-26-275783 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "8-K"
+      }
+    }
+  ]
 }
