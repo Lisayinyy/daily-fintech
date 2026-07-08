@@ -1,13 +1,5 @@
 {
   "seen": {
-    "sec-nvda-8-k-0001045810-26-000051": 1782220864030,
-    "sec-nvda-10-q-0001045810-26-000052": 1782220864030,
-    "sec-msft-8-k-0001193125-26-258667": 1782220864030,
-    "sec-googl-8-k-0001193125-26-259830": 1782220864030,
-    "sec-googl-8-k-0001652044-26-000059": 1782220864030,
-    "sec-googl-8-k-0001193125-26-234488": 1782220864030,
-    "sec-hood-8-k-0001783879-26-000074": 1782220864030,
-    "sequoia-capital-partnering-with-probook-ai-for-the-trades-1782219609000": 1782220864030,
     "sec-amzn-8-k-0001104659-26-065717": 1782391038700,
     "federal-reserve-federal-reserve-board-s-annual-bank-stress-test-confirms-that-large-banks-are-well-positioned-to-weather": 1782391038700,
     "sec-press-sec-appoints-kathleen-hutchinson-as-director-of-office-of-international-affairs-1782325920000": 1782391038700,
@@ -414,6 +406,9 @@
     "sec-amd-10-k-0000002488-20-000008": 1783428243494,
     "sec-amd-10-k-0000002488-19-000011": 1783428243494,
     "sec-amd-10-k-0000002488-18-000042": 1783428243494,
-    "sec-press-sec-names-paul-knight-as-chief-operating-officer-1783365000000": 1783428243494
+    "sec-press-sec-names-paul-knight-as-chief-operating-officer-1783365000000": 1783428243494,
+    "sec-googl-8-k-0001193125-26-257724": 1783512273317,
+    "federal-reserve-federal-reserve-board-requests-comment-on-a-proposal-to-amend-its-requirements-for-banks-to-maintain-ant": 1783512273317,
+    "sec-press-sec-forms-new-retail-fraud-working-group-1783435197000": 1783512273317
   }
 }
