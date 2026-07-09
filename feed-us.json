@@ -1,43 +1,90 @@
 {
   "region": "US",
-  "generated_at": "2026-07-08T12:04:33.317Z",
+  "generated_at": "2026-07-09T13:28:24.046Z",
   "counts": {
-    "total": 2,
+    "total": 5,
     "by_tier": {
-      "1": 2,
-      "2": 0
+      "1": 4,
+      "2": 1
     },
     "by_source": {
       "Federal Reserve": 1,
-      "SEC Press": 1
+      "SEC Press": 2,
+      "Sequoia Capital": 1,
+      "SEC EDGAR": 1
     }
   },
   "items": [
     {
-      "id": "federal-reserve-federal-reserve-board-requests-comment-on-a-proposal-to-amend-its-requirements-for-banks-to-maintain-ant",
-      "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
+      "id": "federal-reserve-minutes-of-the-federal-open-market-committee-june-16-17-2026-1783533600000",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "source_name": "Federal Reserve",
       "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
-      "published_at": "2026-07-07T19:00:00.000Z",
-      "raw_excerpt": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "published_at": "2026-07-08T18:00:00.000Z",
+      "raw_excerpt": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "region": "US",
       "topics": [
         "regulatory"
       ]
     },
     {
-      "id": "sec-press-sec-forms-new-retail-fraud-working-group-1783435197000",
-      "title": "SEC Forms New Retail Fraud Working Group",
+      "id": "sec-press-sec-to-host-virtual-roundtable-on-modernizing-ipos-and-expanding-access-to-public-markets-1783533266000",
+      "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
       "source_name": "SEC Press",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-working-group",
-      "published_at": "2026-07-07T14:39:57.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission today announced the creation of the Retail Fraud Working Group designed to strengthen the Division of Enforcement’s efforts to identify and combat fraud targeting everyday investors.The Retail Fraud Working Group…",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
+      "published_at": "2026-07-08T17:54:26.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission’s&nbsp;Office of the Advocate for Small Business Capital Formation&nbsp;and the&nbsp;Division of Corporation Finance&nbsp;will co-host a livestreamed discussion on Monday, July 13, 2026, at 2 p.m.&nbsp;to re-examine…",
       "region": "US",
       "topics": [
         "regulatory"
       ]
+    },
+    {
+      "id": "sec-press-sec-small-business-advisory-committee-to-explore-modernizing-market-access-1783515661000",
+      "title": "SEC Small Business Advisory Committee to Explore Modernizing Market Access",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-64-sec-small-business-advisory-committee-explore-modernizing-market-access",
+      "published_at": "2026-07-08T13:01:01.000Z",
+      "raw_excerpt": "The&nbsp;Securities and Exchange Commission’s&nbsp;Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, July&nbsp;21, 2026 at 10 a.m. to explore ways to modernize public market access and encourage IPOs…",
+      "region": "US",
+      "topics": [
+        "regulatory"
+      ]
+    },
+    {
+      "id": "sequoia-capital-partnering-with-probook-ai-for-the-trades-1782219609000",
+      "title": "Partnering with Probook: AI for the Trades",
+      "source_name": "Sequoia Capital",
+      "source_tier": 2,
+      "source_url": "https://sequoiacap.com/article/partnering-with-probook-ai-for-the-trades/",
+      "published_at": "2026-06-23T13:00:09.000Z",
+      "raw_excerpt": "The post Partnering with Probook: AI for the Trades appeared first on Sequoia Capital .",
+      "region": "US",
+      "topics": [
+        "vc-thesis"
+      ]
+    },
+    {
+      "id": "sec-hood-8-k-0001783879-26-000074",
+      "title": "Robinhood Markets files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000074/0001783879-26-000074-index.htm",
+      "published_at": "2026-06-23T10:04:43.000Z",
+      "raw_excerpt": "Filed: 2026-06-23 AccNo: 0001783879-26-000074 Size: 2 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "HOOD",
+        "cik": "0001783879",
+        "filing_type": "8-K"
+      }
     }
   ]
 }
