@@ -1,81 +1,35 @@
 {
   "region": "US",
-  "generated_at": "2026-07-10T12:40:11.689Z",
+  "generated_at": "2026-07-13T12:59:59.039Z",
   "counts": {
-    "total": 4,
+    "total": 1,
     "by_tier": {
-      "1": 4,
+      "1": 1,
       "2": 0
     },
     "by_source": {
-      "SEC EDGAR": 2,
-      "Federal Reserve": 2
+      "SEC EDGAR": 1
     }
   },
   "items": [
     {
-      "id": "sec-amzn-8-k-0001104659-26-082293",
-      "title": "Amazon.com files 8-K",
+      "id": "sec-hood-8-k-0001783879-26-000077",
+      "title": "Robinhood Markets files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926082293/0001104659-26-082293-index.htm",
-      "published_at": "2026-07-09T20:46:08.000Z",
-      "raw_excerpt": "Filed: 2026-07-09 AccNo: 0001104659-26-082293 Size: 1 MB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000077/0001783879-26-000077-index.htm",
+      "published_at": "2026-06-25T21:25:27.000Z",
+      "raw_excerpt": "Filed: 2026-06-25 AccNo: 0001783879-26-000077 Size: 40 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "AMZN",
-        "cik": "0001018724",
+        "ticker": "HOOD",
+        "cik": "0001783879",
         "filing_type": "8-K"
       }
-    },
-    {
-      "id": "sec-coin-8-k-0001193125-26-299667",
-      "title": "Coinbase Global files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1679788/000119312526299667/0001193125-26-299667-index.htm",
-      "published_at": "2026-07-09T20:01:16.000Z",
-      "raw_excerpt": "Filed: 2026-07-09 AccNo: 0001193125-26-299667 Size: 174 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-      "region": "US",
-      "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "COIN",
-        "cik": "0001679788",
-        "filing_type": "8-K"
-      }
-    },
-    {
-      "id": "federal-reserve-federal-reserve-announces-the-leadership-and-objectives-of-its-task-forces-to-advance-the-conduct-of-mon",
-      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-      "published_at": "2026-07-09T19:00:00.000Z",
-      "raw_excerpt": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "federal-reserve-federal-reserve-board-issues-enforcement-action-with-ts-banking-group-inc-and-ts-contrarian-bancshares-i",
-      "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-      "published_at": "2026-07-09T15:00:00.000Z",
-      "raw_excerpt": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
     }
   ]
 }
