@@ -1,35 +1,13 @@
 {
   "region": "US",
-  "generated_at": "2026-07-13T12:59:59.039Z",
+  "generated_at": "2026-07-14T11:53:21.816Z",
   "counts": {
-    "total": 1,
+    "total": 0,
     "by_tier": {
-      "1": 1,
+      "1": 0,
       "2": 0
     },
-    "by_source": {
-      "SEC EDGAR": 1
-    }
+    "by_source": {}
   },
-  "items": [
-    {
-      "id": "sec-hood-8-k-0001783879-26-000077",
-      "title": "Robinhood Markets files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000077/0001783879-26-000077-index.htm",
-      "published_at": "2026-06-25T21:25:27.000Z",
-      "raw_excerpt": "Filed: 2026-06-25 AccNo: 0001783879-26-000077 Size: 40 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-      "region": "US",
-      "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "HOOD",
-        "cik": "0001783879",
-        "filing_type": "8-K"
-      }
-    }
-  ]
+  "items": []
 }
