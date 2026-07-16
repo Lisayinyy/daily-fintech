@@ -1,49 +1,13 @@
 {
   "region": "US",
-  "generated_at": "2026-07-15T11:57:43.389Z",
+  "generated_at": "2026-07-16T12:00:43.879Z",
   "counts": {
-    "total": 2,
+    "total": 0,
     "by_tier": {
-      "1": 2,
+      "1": 0,
       "2": 0
     },
-    "by_source": {
-      "Federal Reserve": 1,
-      "SEC EDGAR": 1
-    }
+    "by_source": {}
   },
-  "items": [
-    {
-      "id": "federal-reserve-minutes-of-the-board-s-discount-rate-meetings-on-june-8-and-june-17-2026-1784052000000",
-      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
-      "published_at": "2026-07-14T18:00:00.000Z",
-      "raw_excerpt": "Minutes of the Board&#39;s discount rate meetings on June 8 and June 17, 2026",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "sec-hood-8-k-0001783879-26-000083",
-      "title": "Robinhood Markets files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000083/0001783879-26-000083-index.htm",
-      "published_at": "2026-06-26T20:06:50.000Z",
-      "raw_excerpt": "Filed: 2026-06-26 AccNo: 0001783879-26-000083 Size: 153 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-      "region": "US",
-      "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "HOOD",
-        "cik": "0001783879",
-        "filing_type": "8-K"
-      }
-    }
-  ]
+  "items": []
 }
