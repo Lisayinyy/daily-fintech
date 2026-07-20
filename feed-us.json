@@ -1,101 +1,33 @@
 {
   "region": "US",
-  "generated_at": "2026-07-17T11:51:50.917Z",
+  "generated_at": "2026-07-20T12:31:35.445Z",
   "counts": {
-    "total": 6,
+    "total": 1,
     "by_tier": {
-      "1": 4,
-      "2": 2
+      "1": 1,
+      "2": 0
     },
     "by_source": {
-      "Federal Reserve": 2,
-      "Sequoia Capital": 2,
-      "SEC Press": 1,
       "SEC EDGAR": 1
     }
   },
   "items": [
     {
-      "id": "federal-reserve-agencies-issue-joint-statement-on-handling-of-highly-sensitive-information-during-bank-examinations-1784",
-      "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-      "published_at": "2026-07-16T18:00:00.000Z",
-      "raw_excerpt": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "sequoia-capital-partnering-with-bunkerhill-health-ai-agents-that-improve-patient-outcomes-1784221213000",
-      "title": "Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes",
-      "source_name": "Sequoia Capital",
-      "source_tier": 2,
-      "source_url": "https://sequoiacap.com/article/partnering-with-bunkerhill-health-ai-agents-that-improve-patient-outcomes/",
-      "published_at": "2026-07-16T17:00:13.000Z",
-      "raw_excerpt": "The post Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes appeared first on Sequoia Capital .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
-    },
-    {
-      "id": "sequoia-capital-partnering-with-sable-closing-the-diffusion-gap-1784217602000",
-      "title": "Partnering with Sable: Closing the Diffusion Gap",
-      "source_name": "Sequoia Capital",
-      "source_tier": 2,
-      "source_url": "https://sequoiacap.com/article/partnering-with-sable-closing-the-diffusion-gap/",
-      "published_at": "2026-07-16T16:00:02.000Z",
-      "raw_excerpt": "The post Partnering with Sable: Closing the Diffusion Gap appeared first on Sequoia Capital .",
-      "region": "US",
-      "topics": [
-        "vc-thesis"
-      ]
-    },
-    {
-      "id": "federal-reserve-federal-reserve-board-issues-enforcement-action-with-former-chief-lending-officer-of-heritage-state-bank",
-      "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-      "source_name": "Federal Reserve",
-      "source_tier": 1,
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
-      "published_at": "2026-07-16T15:00:00.000Z",
-      "raw_excerpt": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "sec-press-sec-proposes-new-e-delivery-approach-to-make-information-more-readily-accessible-and-useful-for-investors-1784",
-      "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
-      "source_name": "SEC Press",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors",
-      "published_at": "2026-07-16T12:57:00.000Z",
-      "raw_excerpt": "The Securities and Exchange Commission today&nbsp;proposed Regulation E-Delivery, a new rule that would expand the ability of issuers, broker-dealers, investment advisers, and others to use electronic delivery to satisfy information delivery requirements…",
-      "region": "US",
-      "topics": [
-        "regulatory"
-      ]
-    },
-    {
-      "id": "sec-nvda-8-k-0001045810-26-000056",
-      "title": "NVIDIA Corporation files 8-K",
+      "id": "sec-amd-8-k-0000002488-26-000115",
+      "title": "Advanced Micro Devices files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/0001045810-26-000056-index.htm",
-      "published_at": "2026-06-30T20:27:26.000Z",
-      "raw_excerpt": "Filed: 2026-06-30 AccNo: 0001045810-26-000056 Size: 178 KB Item 5.07: Submission of Matters to a Vote of Security Holders",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/0000002488-26-000115-index.htm",
+      "published_at": "2026-07-01T20:27:26.000Z",
+      "raw_excerpt": "Filed: 2026-07-01 AccNo: 0000002488-26-000115 Size: 171 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "NVDA",
-        "cik": "0001045810",
+        "ticker": "AMD",
+        "cik": "0000002488",
         "filing_type": "8-K"
       }
     }
