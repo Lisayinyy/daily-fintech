@@ -1,33 +1,52 @@
 {
   "region": "US",
-  "generated_at": "2026-07-20T12:31:35.445Z",
+  "generated_at": "2026-07-21T12:07:45.002Z",
   "counts": {
-    "total": 1,
+    "total": 2,
     "by_tier": {
-      "1": 1,
+      "1": 2,
       "2": 0
     },
     "by_source": {
-      "SEC EDGAR": 1
+      "SEC EDGAR": 2
     }
   },
   "items": [
     {
-      "id": "sec-amd-8-k-0000002488-26-000115",
-      "title": "Advanced Micro Devices files 8-K",
+      "id": "sec-nvda-8-k-0001045810-26-000060",
+      "title": "NVIDIA Corporation files 8-K",
       "source_name": "SEC EDGAR",
       "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/0000002488-26-000115-index.htm",
-      "published_at": "2026-07-01T20:27:26.000Z",
-      "raw_excerpt": "Filed: 2026-07-01 AccNo: 0000002488-26-000115 Size: 171 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/0001045810-26-000060-index.htm",
+      "published_at": "2026-07-02T13:23:16.000Z",
+      "raw_excerpt": "Filed: 2026-07-02 AccNo: 0001045810-26-000060 Size: 138 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
       "region": "US",
       "topics": [
         "regulatory",
         "8-k"
       ],
       "meta": {
-        "ticker": "AMD",
-        "cik": "0000002488",
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-tsla-8-k-0001628280-26-046717",
+      "title": "Tesla Inc. files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/0001628280-26-046717-index.htm",
+      "published_at": "2026-07-02T13:01:26.000Z",
+      "raw_excerpt": "Filed: 2026-07-02 AccNo: 0001628280-26-046717 Size: 156 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "TSLA",
+        "cik": "0001318605",
         "filing_type": "8-K"
       }
     }
