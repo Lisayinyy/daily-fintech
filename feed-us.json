@@ -1,54 +1,29 @@
 {
   "region": "US",
-  "generated_at": "2026-07-21T12:07:45.002Z",
+  "generated_at": "2026-07-22T12:11:18.013Z",
   "counts": {
-    "total": 2,
+    "total": 1,
     "by_tier": {
-      "1": 2,
-      "2": 0
+      "1": 0,
+      "2": 1
     },
     "by_source": {
-      "SEC EDGAR": 2
+      "Lightspeed": 1
     }
   },
   "items": [
     {
-      "id": "sec-nvda-8-k-0001045810-26-000060",
-      "title": "NVIDIA Corporation files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/0001045810-26-000060-index.htm",
-      "published_at": "2026-07-02T13:23:16.000Z",
-      "raw_excerpt": "Filed: 2026-07-02 AccNo: 0001045810-26-000060 Size: 138 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "id": "lightspeed-cuspai-1784681509000",
+      "title": "CuspAI",
+      "source_name": "Lightspeed",
+      "source_tier": 2,
+      "source_url": "https://lsvp.com/company/cuspai/",
+      "published_at": "2026-07-22T00:51:49.000Z",
+      "raw_excerpt": "The post CuspAI appeared first on Lightspeed Venture Partners .",
       "region": "US",
       "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "NVDA",
-        "cik": "0001045810",
-        "filing_type": "8-K"
-      }
-    },
-    {
-      "id": "sec-tsla-8-k-0001628280-26-046717",
-      "title": "Tesla Inc. files 8-K",
-      "source_name": "SEC EDGAR",
-      "source_tier": 1,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/0001628280-26-046717-index.htm",
-      "published_at": "2026-07-02T13:01:26.000Z",
-      "raw_excerpt": "Filed: 2026-07-02 AccNo: 0001628280-26-046717 Size: 156 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-      "region": "US",
-      "topics": [
-        "regulatory",
-        "8-k"
-      ],
-      "meta": {
-        "ticker": "TSLA",
-        "cik": "0001318605",
-        "filing_type": "8-K"
-      }
+        "vc-thesis"
+      ]
     }
   ]
 }
