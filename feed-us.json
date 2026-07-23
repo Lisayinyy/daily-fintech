@@ -1,28 +1,105 @@
 {
   "region": "US",
-  "generated_at": "2026-07-22T12:11:18.013Z",
+  "generated_at": "2026-07-23T12:09:18.770Z",
   "counts": {
-    "total": 1,
+    "total": 5,
     "by_tier": {
-      "1": 0,
-      "2": 1
+      "1": 5,
+      "2": 0
     },
     "by_source": {
-      "Lightspeed": 1
+      "SEC EDGAR": 4,
+      "SEC Press": 1
     }
   },
   "items": [
     {
-      "id": "lightspeed-cuspai-1784681509000",
-      "title": "CuspAI",
-      "source_name": "Lightspeed",
-      "source_tier": 2,
-      "source_url": "https://lsvp.com/company/cuspai/",
-      "published_at": "2026-07-22T00:51:49.000Z",
-      "raw_excerpt": "The post CuspAI appeared first on Lightspeed Venture Partners .",
+      "id": "sec-googl-10-q-0001652044-26-000071",
+      "title": "Alphabet Inc. files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/0001652044-26-000071-index.htm",
+      "published_at": "2026-07-23T01:15:54.000Z",
+      "raw_excerpt": "Filed: 2026-07-23 AccNo: 0001652044-26-000071 Size: 14 MB",
       "region": "US",
       "topics": [
-        "vc-thesis"
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "GOOGL",
+        "cik": "0001652044",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-tsla-10-q-0001628280-26-049270",
+      "title": "Tesla Inc. files 10-Q",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/0001628280-26-049270-index.htm",
+      "published_at": "2026-07-23T01:02:31.000Z",
+      "raw_excerpt": "Filed: 2026-07-23 AccNo: 0001628280-26-049270 Size: 8 MB",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "10-q"
+      ],
+      "meta": {
+        "ticker": "TSLA",
+        "cik": "0001318605",
+        "filing_type": "10-Q"
+      }
+    },
+    {
+      "id": "sec-tsla-8-k-0001628280-26-049213",
+      "title": "Tesla Inc. files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/0001628280-26-049213-index.htm",
+      "published_at": "2026-07-22T20:35:52.000Z",
+      "raw_excerpt": "Filed: 2026-07-22 AccNo: 0001628280-26-049213 Size: 5 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "TSLA",
+        "cik": "0001318605",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-googl-8-k-0001652044-26-000066",
+      "title": "Alphabet Inc. files 8-K",
+      "source_name": "SEC EDGAR",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/0001652044-26-000066-index.htm",
+      "published_at": "2026-07-22T20:01:36.000Z",
+      "raw_excerpt": "Filed: 2026-07-22 AccNo: 0001652044-26-000066 Size: 815 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+      "region": "US",
+      "topics": [
+        "regulatory",
+        "8-k"
+      ],
+      "meta": {
+        "ticker": "GOOGL",
+        "cik": "0001652044",
+        "filing_type": "8-K"
+      }
+    },
+    {
+      "id": "sec-press-sec-announces-departure-of-principal-deputy-director-of-enforcement-sam-waldon-1784727925000",
+      "title": "SEC Announces Departure of Principal Deputy Director of Enforcement Sam Waldon",
+      "source_name": "SEC Press",
+      "source_tier": 1,
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-68-sec-announces-departure-principal-deputy-director-enforcement-sam-waldon",
+      "published_at": "2026-07-22T13:45:25.000Z",
+      "raw_excerpt": "The Securities and Exchange Commission today announced that Sam Waldon, Principal Deputy Director of the Division of Enforcement, will depart the agency on July 31, 2026, after more than 14 years at the SEC. He will be succeeded as Principal Deputy…",
+      "region": "US",
+      "topics": [
+        "regulatory"
       ]
     }
   ]
